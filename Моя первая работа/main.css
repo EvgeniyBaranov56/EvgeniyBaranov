@@ -1,0 +1,137 @@
+б@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&семейство=Varela+Round&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css");
+
+body {
+	background-color: #f2f2f2;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6, {
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #300;
+}
+
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+.centered {
+	text-align: center;
+}
+
+a {
+	color: #f85c37;
+}
+
+a:hover, a:focus {
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar {
+	background: url(img/uzor-iva-.-mansi.jpg) no-repeat center top;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#headerwrap {
+	background: #E0E0E0;
+	padding-top: 20px;
+	min-height: 300px;
+	width: 100%;
+}
+
+.w {
+	padding-top: 35px;
+}
+
+.w h4 {
+	font-size: 25px;
+}
+
+#dg {
+	background: #e0e0e0;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#dg h4 {
+	font-size: 40px;
+}
+
+.tilt {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.tilt:hover {
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+.wb {
+	padding-top: 35px;
+	margin-bottom: 0;
+}
+
+.wb h4 {
+	font-size:35px;
+}
+
+#lg {
+	background: #E0E0E0;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#lg h4 {
+	font-size: 45px;
+}
+
+#f {
+	background: #2d2d2d;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#f i {
+	color: #bdbdbd;
+	font-size: 30px;
+	padding: 20px;
+}
+
+#f i:hover {
+	color: #ff7878;
+}
